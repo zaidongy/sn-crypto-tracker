@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_f479b5456c5001107612919700892ec4</event_name>
+        <interfaces/>
+        <label>Content Updated Relay</label>
+        <props>[{"name":"params","label":"Optionals Parameters","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-06 17:23:25</sys_created_on>
+        <sys_id>3c79b545fd5001100b469d6ca3610bbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Updated Relay</sys_name>
+        <sys_package display_value="CryptoTracker" source="x_409431_cryptot_0">788e654d071001107edbf8ed7c1ed070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CryptoTracker">788e654d071001107edbf8ed7c1ed070</sys_scope>
+        <sys_update_name>sys_ux_event_3c79b545fd5001100b469d6ca3610bbb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-06 17:23:25</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c79b545fd5001100b469d6ca3610bbb"/>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Related items Mapping</name>
+        <parent_macroponent display_value="Catalog Item Page">f479b5456c5001107612919700892ec4</parent_macroponent>
+        <source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-06 17:23:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b479b5450a50011071f019c6097288c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related items Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CryptoTracker" source="x_409431_cryptot_0">788e654d071001107edbf8ed7c1ed070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CryptoTracker">788e654d071001107edbf8ed7c1ed070</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_b479b5450a50011071f019c6097288c4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-06 17:23:26</sys_updated_on>
+        <target_event display_value="Catalog item card clicked">3879b5457c5001109c0f66cad7c3b9c4</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

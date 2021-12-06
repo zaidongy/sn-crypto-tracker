@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">7079b5453d500110674982a82405eeb8</dataset>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">f479b5458f50011029d24a2ddd1a7bb9</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-06 17:23:25</sys_created_on>
+        <sys_id>b479b5453c5001107b2b27676af5acb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CryptoTracker" source="x_409431_cryptot_0">788e654d071001107edbf8ed7c1ed070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CryptoTracker">788e654d071001107edbf8ed7c1ed070</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_b479b5453c5001107b2b27676af5acb9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-06 17:23:25</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

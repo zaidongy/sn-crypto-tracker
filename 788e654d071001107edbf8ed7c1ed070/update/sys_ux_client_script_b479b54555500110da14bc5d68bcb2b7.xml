@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Article page">3479b545a35001108eb1f95879bd4fb5</macroponent>
+        <name>Toggle Comment Reaction</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, imports }) {
+  var likeCommentPayload = {
+    operation: {
+      dataElementId: "like_knowledge_comment",
+      operationName: "EXECUTE"
+    },
+    operationPayload: {
+      commentId: event.payload.commentId,
+      articleId: api.context.props.sysId
+    }
+  }
+
+  var unlikeCommentPayload = {
+    operation: {
+      dataElementId: "unlike_knowledge_comment",
+      operationName: "EXECUTE"
+    },
+    operationPayload: {
+      commentId: event.payload.commentId,
+      articleId: api.context.props.sysId
+    }
+  }
+
+  if (event.payload.reaction) {
+    api.emit("UXF_DB_OP_TRIGGER_REQUESTED", likeCommentPayload);
+  } else {
+    api.emit("UXF_DB_OP_TRIGGER_REQUESTED", unlikeCommentPayload);
+  }
+}
+]]></script>
+        <script_api_version>1.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-06 17:23:24</sys_created_on>
+        <sys_id>b479b54555500110da14bc5d68bcb2b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle Comment Reaction</sys_name>
+        <sys_package display_value="CryptoTracker" source="x_409431_cryptot_0">788e654d071001107edbf8ed7c1ed070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CryptoTracker">788e654d071001107edbf8ed7c1ed070</sys_scope>
+        <sys_update_name>sys_ux_client_script_b479b54555500110da14bc5d68bcb2b7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-06 17:23:24</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>
