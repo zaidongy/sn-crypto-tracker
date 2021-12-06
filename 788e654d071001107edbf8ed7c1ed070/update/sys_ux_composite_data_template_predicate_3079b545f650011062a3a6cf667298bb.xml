@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="kb_knowledge">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>short_description,author.avatar,author.name,description,sys_view_count,rating</field_list>
+        <name>Popular articles predicate</name>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">f479b5458f50011029d24a2ddd1a7bb9</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-06 17:23:23</sys_created_on>
+        <sys_id>3079b545f650011062a3a6cf667298bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles predicate</sys_name>
+        <sys_package display_value="CryptoTracker" source="x_409431_cryptot_0">788e654d071001107edbf8ed7c1ed070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CryptoTracker">788e654d071001107edbf8ed7c1ed070</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_3079b545f650011062a3a6cf667298bb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-06 17:23:23</sys_updated_on>
+        <table>kb_knowledge</table>
+        <ux_template display_value="Popular articles template">7879b5452c50011081d38bfd99f324ba</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

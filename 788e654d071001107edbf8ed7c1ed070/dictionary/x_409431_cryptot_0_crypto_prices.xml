@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Crypto Prices" max_length="40" name="x_409431_cryptot_0_crypto_prices" type="collection"/>
+</database>
